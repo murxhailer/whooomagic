@@ -1,0 +1,20 @@
+question = input("What question do you ask the Magic Eight Ball?")
+import random
+answer = random.randrange(1,9)
+
+if answer == 1:
+    print("I don't think so.")
+elif answer ==2:
+    print('Nah bro')
+elif answer==3:
+    print("Never. Sorry.")
+elif answer ==4:
+    print("Maybe? What am I, psychic?")
+elif answer == 5:
+    print("Yeah, whatever. Sure kid.")
+elif answer ==6:
+    print("Yup. That is the case.")
+elif answer == 7:
+    print("It is known.")
+else:
+    print("Absolutely!")
